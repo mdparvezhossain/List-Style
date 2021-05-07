@@ -1,0 +1,23 @@
+.list{
+    background-color: teal;
+    color: white;
+    padding: 20px;
+}
+.list ul{
+    list-style: none;
+}
+.list li{
+    font-size: 1.2remo;
+}
+.list li:hover{
+    background-color: violet;
+}
+.list li::before{
+    content: '\f058';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 1.2rem;
+    color: tomato;
+}
